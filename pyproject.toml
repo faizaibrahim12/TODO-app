@@ -1,0 +1,18 @@
+[project]
+name = "todo-app"
+version = "1.0.0"
+description = "A command-line todo application that stores tasks in memory"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+todo = "todo.app:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
+
